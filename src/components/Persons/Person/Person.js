@@ -17,6 +17,10 @@ class Person extends Component {
         console.log("[Person.js] inside of componentDidMount()")
       }
 
+      componentWillUnmount() {
+          console.log("[Person.js inside componentWillUnmount()")
+      }
+
     render() {
         console.log("[Person.js} inside render()")
         return (
